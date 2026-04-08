@@ -1,7 +1,7 @@
 # HTML - Basics
 
 ## What "HTML - Basics" Does? ☺️
-> The goal of this project is for me to become proficeinet with HTML basics and essential in order
+> The goal of this project is for me to become proficeinet with HTML basics and essentials in order
 > to eventually create a web application that I will use to host various other software development projects from.
 
 ## Why is the project useful? 🛠️
