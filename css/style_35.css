@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    /* This is the default flexdirection (row) when using display flex */
+    border: 10px solid black;
+    height: 90vh;
+    /* justify-content: space-evenly; */
+    /* align-items: baseline; */
+    /* flex-wrap: wrap; */
+    /* align-content: space-start; */
+    /* column-gap: 3em; */
+    /* row-gap: 3em; */
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    /* font-size: 5em; */
+    background-color: hsl(0, 100%, 70%);
+    /* order: 1; */
+}
+#box2{
+    background-color: hsl(52, 100%, 70%);
+    /* order: -1; */
+}
+#box3{
+    background-color: hsl(111, 100%, 70%);
+    /* align-self: center; */
+}
+#box4{
+    background-color: hsl(201, 100%, 70%);
+}
