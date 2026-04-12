@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: hsl(100, 100%, 70%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+    /* animation-play-state: paused; */
+    animation-timing-function: cubic-bezier(0.74,-0.32, 0.22, 1.33);
+    /* animation-timing-function: steps(5); */
+
+    /* opacity: 0; */
+}
+/* #box:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+} */
+img{
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: cubic-bezier(0.74,-0.32, 0.22, 1.33); */
+}
+
+
+
+/* These keyframe rules are used to create animations with a unique name */
+@keyframes slideLeft{
+    from{transform: translateX(300%);}
+}
+@keyframes slideRight{
+    to{transform: translateX(300%);}
+}
+@keyframes slideUp{
+    from{transform: translateY(300%);}
+}
+@keyframes slideDown{
+    to{transform: translateY(300%);}
+}
+@keyframes rotateX{
+    100%{transform: rotateX(360deg);}
+}
+@keyframes rotateY{
+    100%{transform: rotateY(360deg);}
+}
+@keyframes rotateZ{
+    25%{transform: rotateZ(360deg);}
+}
+@keyframes grow{
+    50%{transform: scale(2, 2);}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5);}
+}
+@keyframes fade{
+    50%{opacity: 0;}
+}
+@keyframes fadeIn{
+    100%{opacity: 1;}
+}
+@keyframes colorChange{
+    0%{background-color: hsl(60, 100%, 70%);}
+    20%{background-color: hsl(100, 100%, 70%);}
+    40%{background-color: hsl(171, 100%, 70%);}
+    60%{background-color: hsl(227, 100%, 70%);}
+    80%{background-color: hsl(279, 100%, 70%);}
+    100%{background-color: hsl(342, 100%, 70%);}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px hsl(112, 100%, 50%)}
+}
