@@ -27,6 +27,7 @@
 ## Need Help with "HTML - Basics - Master"? 😖
 > All users should be able to get assistance
 > from me using the blog on my web application.
+> Blog is not yet created.
 
 ## Contributers?
 > 1. Chidiebube Okebalama
