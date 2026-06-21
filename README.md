@@ -1,6 +1,6 @@
 # HTML - Basics - Master
 
-## What "HTML - Basics" Does? ☺️
+## What "HTML - Basics - Master" Does? ☺️
 > The goal of this project is for me to become proficeinet with HTML basics and essentials in order
 > to eventually create a web application that I will use to host various other software development projects from.
 
@@ -18,13 +18,13 @@
 > - ...
 > - ...
 
-## How to get Started with "HTML - Basics"? #️⃣1️⃣
+## How to get Started with "HTML - Basics - Master"? #️⃣1️⃣
 > Users will be able to easily get onto this web application by using the
 > Passphrase: ( To be determined at a later time )
 > I want to also incorpertae a user Sign in process for
 > people who want to have a more *Unique* experience with my website
 
-## Need Help with "HTML - Basics"? 😖
+## Need Help with "HTML - Basics - Master"? 😖
 > All users should be able to get assistance
 > from me using the blog on my web application.
 
