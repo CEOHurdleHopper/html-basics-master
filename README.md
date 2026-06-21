@@ -1,4 +1,4 @@
-# HTML - Basics
+# HTML - Basics - Master
 
 ## What "HTML - Basics" Does? ☺️
 > The goal of this project is for me to become proficeinet with HTML basics and essentials in order
