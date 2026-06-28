@@ -1,0 +1,21 @@
+nav {
+    border-bottom: 100px solid hsl(124, 20%, 45%);
+}
+
+.crumbs ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after{
+    display: inline-block;
+    color: black;
+    content: ">";
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
