@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* TODO Still have to understand exactly what the above is actually doing */
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color: hsl(124, 21%, 58%);
+}
+
+nav{
+    width:100%;
+    border: 10px solid hsl(137, 25%, 25%);
+    background-color: hsl(137, 25%, 25%);
+}
+
+footer{
+    text-align: center;
+    width:100%;
+    border:1px solid hsl(137, 25%, 25%);
+    background-color: hsl(137, 25%, 25%);
+    padding:0;
+
+    box-shadow: 0 -5px 15px hsla(188, 100%, 50%, 0.3); 
+}
+
+footer p{
+    margin:0;
+}
+
+#header{
+    text-align: center;
+}
+
+#content{
+    text-align: center;
+}
+
+.bio-picture{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crumbs ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after{
+    display: inline-block;
+    color: black;
+    content: ">";
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
