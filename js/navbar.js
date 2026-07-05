@@ -9,6 +9,10 @@ const navTemplate =`
                 <a href="/html_website/simple_bio_page.html">Bio Page</a>
             </li>
 
+            <li class="crumb">
+                <a href="/html_website/simple_blog_page.html">Blog Page</a>
+            </li>
+
         </ul>
     </nav>
     `;
