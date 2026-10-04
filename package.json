@@ -4,7 +4,7 @@
   "description": "> The goal of this project is for me to become proficeinet with HTML basics and essentials in order\r > to eventually create a web application that I will use to host various other software development projects from.",
   "main": "index.js",
   "scripts": {
-    "testdbinput": "node server.js",
+    "testdbinput": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
