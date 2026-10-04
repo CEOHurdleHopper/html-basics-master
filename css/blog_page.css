@@ -7,7 +7,7 @@
   color: hsl(0, 0%, 100%);
   text-shadow: 1px 1px 1px black;
   border-radius: 10px;
-  background-color: rgb(76, 228, 137);
+  background-color: rgb(110, 237, 160);
   background-image: linear-gradient(
     to top left,
     rgb(0 0 0 / 0.2),
@@ -20,10 +20,41 @@
 }
 
 #post-button:hover {
-  background-color: hsl(149, 49%, 19%);
+  background-color: hsl(150, 45%, 32%);
 }
 
 #post-button:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+    inset 2px 2px 3px rgb(0 0 0 / 0.6);
+}
+
+#save-button {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  background-color: rgb(124, 186, 215);
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 0.2),
+    rgb(0 0 0 / 0.2) 30%,
+    transparent
+  );
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+}
+
+#save-button:hover {
+  background-color: hsl(198, 46%, 30%);
+}
+
+#save-button:active {
   box-shadow:
     inset -2px -2px 3px rgb(255 255 255 / 0.6),
     inset 2px 2px 3px rgb(0 0 0 / 0.6);

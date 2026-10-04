@@ -1,0 +1,16 @@
+{
+  "name": "html-basics",
+  "version": "1.0.0",
+  "description": "> The goal of this project is for me to become proficeinet with HTML basics and essentials in order\r > to eventually create a web application that I will use to host various other software development projects from.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.2.1"
+  }
+}

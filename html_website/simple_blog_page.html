@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/base_page.css">
     <link rel="stylesheet" href="../css/blog_page.css">
 </head>
-    <body>
+    <body onload="get()">
         
         <div id="nav-container"></div>
 
@@ -31,12 +31,27 @@
 
                 <br>
 
+                <!-- TODO: I want the button to be able to save information to the database 
+                 for the website so that blogs that are saved can be posted at a later time 
+                 instead of in that moment. -->
+                <button 
+                    id="save-button" 
+                    type="button"
+                    onclick="save()"
+                    >Save
+                </button>
+
                 <button 
                     id="post-button" 
                     type="button"
                     >Post
                 </button>
 
+            </div>
+
+            <div id="post-info">
+                <p id ="savedText"></p>
+                <p id ="openedText"></p>
             </div>
         </main>
 
@@ -45,5 +60,6 @@
         </footer>
             
         <script src="../js/navbar.js"></script>
+        <script src="../js/blogPage.js"></script>
     </body>
 </html>
