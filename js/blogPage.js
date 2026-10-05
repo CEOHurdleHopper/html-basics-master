@@ -65,7 +65,7 @@ async function get() {
     
 
     if (data.found) {
-        document.getElementById("openedText").textContent = data.content + "\n" + " LAST DRAFT OPENED FROM DATABASE";
+        document.getElementById("openedText").textContent = "\n" + " LAST DRAFT OPENED FROM DATABASE";
         document.getElementById("post").value = data.content;
     } else {
         document.getElementById("openedText").textContent = "No saved posts found.";
