@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="../css/base_page.css">
     <link rel="stylesheet" href="../css/blog_page.css">
 </head>
-    <body onload="get()">
+    <!-- <body onload="get()"> -->
+    <body>
         
         <div id="nav-container"></div>
 
@@ -39,6 +40,13 @@
                     type="button"
                     onclick="save()"
                     >Save
+                </button>
+
+                <button 
+                    id="load-last-draft-button"
+                    type="button"
+                    onclick="get()"
+                    >Load Last Draft
                 </button>
 
                 <button 

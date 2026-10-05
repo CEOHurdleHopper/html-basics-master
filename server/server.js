@@ -23,6 +23,8 @@ app.post('/api/save', (req, res) => {
     res.json({ success: true });
 });
 
+// This function needs to ONLY happen when I pull up the last draft,
+// So I need to make a Latest draft button for this to work with that button.
 app.get('/api/latest', (req, res) => {
     const row = db.prepare("SELECT content FROM posts WHERE status = 'draft' ORDER BY id DESC LIMIT 1").get();
     res.json(row ? { found: true, content: row.content } : { found: false });
